@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_arrow_right_24"
+            android:title="@string/bbc_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_arrow_right_24"
+            android:title="@string/ndtv_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_arrow_right_24"
+            android:title="@string/cnn_news"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_toi"
+            android:icon="@drawable/baseline_arrow_right_24"
+            android:title="@string/times_of_india"
+            android:menuCategory="secondary"/>
+    </group>
+
+    <item android:title="UpComing"
+        android:menuCategory="secondary">
+
+        <menu>
+            <item android:title="New york times"
+                android:menuCategory="secondary"/>
+        </menu>
+
+    </item>
+</menu>
